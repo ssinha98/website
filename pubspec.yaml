@@ -1,0 +1,150 @@
+name: website
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  liquid_swipe: ^2.0.1
+  clipboard: ^0.1.3
+  url_launcher: ^6.0.2
+  http: ^0.13.1
+  mixpanel_analytics: ^2.0.0
+  animated_text_kit: ^4.2.1
+  card_swiper: ^1.0.4
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/whatsapp.png
+  - assets/pink1.png
+  - assets/pink2.png
+  - assets/pink3.png
+  - assets/pink4.png
+  - assets/pink5.png
+  - assets/pink6.png
+  - assets/pink7.png
+  - assets/pink8.png
+  - assets/pink9.png
+  - assets/pink10.png
+  - assets/blue1.png
+  - assets/blue2.png
+  - assets/blue3.png
+  - assets/blue4.png
+  - assets/blue5.png
+  - assets/blue6.png
+  - assets/blue7.png
+  - assets/blue8.png
+  - assets/blue9.png
+  - assets/blue10.png
+  - assets/light_blue1.png
+  - assets/light_blue2.png
+  - assets/light_blue3.png
+  - assets/light_blue4.png
+  - assets/light_blue5.png
+  - assets/light_blue6.png
+  - assets/light_blue7.png
+  - assets/light_blue8.png
+  - assets/light_blue9.png
+  - assets/light_blue10.png
+  - assets/light_green1.png
+  - assets/light_green2.png
+  - assets/light_green3.png
+  - assets/light_green4.png
+  - assets/light_green5.png
+  - assets/light_green6.png
+  - assets/light_green7.png
+  - assets/light_green8.png
+  - assets/light_green9.png
+  - assets/light_green10.png
+  - assets/light_pink1.png
+  - assets/light_pink2.png
+  - assets/light_pink3.png
+  - assets/light_pink4.png
+  - assets/light_pink5.png
+  - assets/light_pink6.png
+  - assets/light_pink7.png
+  - assets/light_pink8.png
+  - assets/light_pink9.png
+  - assets/light_pink10.png
+  - assets/lime1.png
+  - assets/lime2.png
+  - assets/lime3.png
+  - assets/lime4.png
+  - assets/lime5.png
+  - assets/lime6.png
+  - assets/lime7.png
+  - assets/lime8.png
+  - assets/lime9.png
+  - assets/lime10.png
+  - assets/yellow1.png
+  - assets/yellow2.png
+  - assets/yellow3.png
+  - assets/yellow4.png
+  - assets/yellow5.png
+  - assets/yellow6.png
+  - assets/yellow7.png
+  - assets/yellow8.png
+  - assets/yellow9.png
+  - assets/yellow10.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Kalam
+      fonts:
+        - asset: assets/Kalam-Bold.ttf
+    - family: Indie
+      fonts:
+        - asset: assets/IndieFlower-Regular.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
