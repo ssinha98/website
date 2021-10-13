@@ -19,9 +19,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: TemplatePicker()
-        // home: Nav()
-        // home: AnimatedServiceStart()
-        );
+        home: TemplatePicker());
   }
 }
